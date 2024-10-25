@@ -1,0 +1,10 @@
+../Core/Src/Project/project.c:31:6:print_help	2
+../Core/Src/Project/project.c:47:6:toggle_mode	2
+../Core/Src/Project/project.c:67:5:get_remote_state	1
+../Core/Src/Project/project.c:73:5:get_song_num	1
+../Core/Src/Project/project.c:78:6:next_song	2
+../Core/Src/Project/project.c:88:6:LED_Controller	4
+../Core/Src/Project/project.c:99:6:Toggle_LED_status	2
+../Core/Src/Project/project.c:112:6:Set_LED_status	1
+../Core/Src/Project/project.c:118:6:fill_buffer	1
+../Core/Src/Project/project.c:123:6:read_input	9

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SWEN-340 Project/Core/Src/Examples&apos; to &apos;Activities&apos;" description="Rename resource &apos;Examples&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/Examples" name="Activities" stamp="1706810183162" updateReferences="true"/>
+</session>

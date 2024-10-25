@@ -1,0 +1,7 @@
+../Core/Src/Project/tone.c:41:6:add_song_counter	1
+../Core/Src/Project/tone.c:50:10:hertz_to_midi_ticks	2
+../Core/Src/Project/tone.c:59:10:get_counter	1
+../Core/Src/Project/tone.c:63:6:reset_counter	1
+../Core/Src/Project/tone.c:68:9:add_tone	1
+../Core/Src/Project/tone.c:74:9:remove_tone	1
+../Core/Src/Project/tone.c:81:6:play_tones	4

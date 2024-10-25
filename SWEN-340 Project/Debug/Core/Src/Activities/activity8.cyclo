@@ -1,0 +1,4 @@
+../Core/Src/Activities/activity8.c:16:6:read_and_print_byte	2
+../Core/Src/Activities/activity8.c:26:6:read_bytes	1
+../Core/Src/Activities/activity8.c:32:7:readline	3
+../Core/Src/Activities/activity8.c:43:6:readlines	1

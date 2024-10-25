@@ -1,0 +1,17 @@
+/*
+ * play_song.h
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: raymo
+ */
+
+#ifndef INC_PROJECT_PLAY_SONG_H_
+#define INC_PROJECT_PLAY_SONG_H_
+
+uint32_t parseDelay(uint8_t* delay);
+unsigned char* get_note_events();
+void parse_song();
+void play_song();
+
+
+#endif /* INC_PROJECT_PLAY_SONG_H_ */

@@ -1,0 +1,2 @@
+../Core/Src/Project/systick_handler.c:19:6:SysTick_Handler	2
+../Core/Src/Project/systick_handler.c:34:5:get_count	1

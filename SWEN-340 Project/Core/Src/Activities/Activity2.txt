@@ -1,0 +1,21 @@
+unsigned char q1 = 73;
+
+q1 as binary => 73/2 = 36 & 1 => 36/2 = 18 & 0 => 18/2 = 9 & 0 => 
+9/2 = 4 & 1 => 4/2 = 2 & 0 => 2/2 = 1 & 0 => 1/2 = 0 & 1
+final ans: 01001001
+
+q1 as hex => 73/16 = 4 & 9 => 4/16 = 0 & 4
+final ans: 49
+
+signed char q2 = -5;
+
+q2 as binary => +5=> 0000 0101
++5 => -5: Invert every bit => 1111 1010 => Add one => 1111 1011
+final ans: 1111 1011
+
+q2 as hex => 1111 1011 to hex => 1111 = F & 1011 = B => 0xFB
+
+unsigned char q3 = 0b 1101 0110
+
+q3 to decimal = 2 + 4 + 16 + 64 + 128 = 214
+q3 to hex => 1101 0110 to hex => 1101 = D & 0110 = 6 => 0xD6

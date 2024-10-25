@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;SWEN-340 Project/Core/Src/HW/printer&apos; to &apos;printer.c&apos;" description="Rename resource &apos;printer&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/HW/printer" name="printer.c" stamp="1706197374383" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;SWEN-340 Project/Core/Src/HW/printer.c&apos; to &apos;printf.c&apos;" description="Rename resource &apos;printer.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/HW/printer.c" name="printf.c" stamp="1706207180488" updateReferences="true"/>
+</session>

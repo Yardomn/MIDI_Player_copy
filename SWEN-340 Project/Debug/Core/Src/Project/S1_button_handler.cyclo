@@ -1,0 +1,9 @@
+../Drivers/CMSIS/Include/core_cm4.h:1679:22:__NVIC_EnableIRQ	2
+../Drivers/CMSIS/Include/core_cm4.h:1717:22:__NVIC_DisableIRQ	2
+../Core/Src/Project/S1_button_handler.c:20:6:S1_button_enable	1
+../Core/Src/Project/S1_button_handler.c:25:6:S1_button_disable	1
+../Core/Src/Project/S1_button_handler.c:30:6:EXTI9_5_IRQHandler	2
+../Core/Src/Project/S1_button_handler.c:40:5:Get_button_pressed	1
+../Core/Src/Project/S1_button_handler.c:46:6:set_manual_active	1
+../Core/Src/Project/S1_button_handler.c:50:6:set_manual_unactive	1
+../Core/Src/Project/S1_button_handler.c:54:6:manual_mode_loop	6

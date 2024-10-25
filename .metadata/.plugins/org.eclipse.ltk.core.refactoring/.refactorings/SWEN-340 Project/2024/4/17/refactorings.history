@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;SWEN-340 Project/Core/Src/HW/HW3.c&apos; to &apos;endian_converter.c&apos;" description="Rename resource &apos;HW3.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/HW/HW3.c" name="endian_converter.c" stamp="1713809954826" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;SWEN-340 Project/Core/Inc/HW/HW3.h&apos; to &apos;endian_converter.h&apos;" description="Rename resource &apos;HW3.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/HW/HW3.h" name="endian_converter.h" stamp="1713809978113" updateReferences="true"/>
+</session>

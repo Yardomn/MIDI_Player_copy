@@ -1,0 +1,5 @@
+<chunk type> = MThd
+<length> = 6
+<format> = 1
+<ntrks> = 2
+<division> = 256

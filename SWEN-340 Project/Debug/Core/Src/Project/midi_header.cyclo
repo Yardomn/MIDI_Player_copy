@@ -1,0 +1,7 @@
+../Core/Src/Project/midi_header.c:22:16:get_header	1
+../Core/Src/Project/midi_header.c:30:5:get_tempo	4
+../Core/Src/Project/midi_header.c:45:6:use_header	1
+../Core/Src/Project/midi_header.c:56:6:print_copyright	5
+../Core/Src/Project/midi_header.c:77:6:print_title	5
+../Core/Src/Project/midi_header.c:98:6:print_tempo	4
+../Core/Src/Project/midi_header.c:115:6:print_song_info	1

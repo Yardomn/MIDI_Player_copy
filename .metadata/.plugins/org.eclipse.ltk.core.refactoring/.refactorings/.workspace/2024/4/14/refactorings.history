@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;SWEN-340 Project/Core/Src/Project/LED_controller.c&apos;" deleteContents="false" description="Delete resource &apos;SWEN-340 Project/Core/Src/Project/LED_controller.c&apos;" element1="/SWEN-340 Project/Core/Src/Project/LED_controller.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1712181114585"/>
+</session>

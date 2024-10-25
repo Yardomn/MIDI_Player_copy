@@ -1,0 +1,5 @@
+../Core/Src/Project/play_song.c:31:5:get_count_start	1
+../Core/Src/Project/play_song.c:35:10:parseDelay	2
+../Core/Src/Project/play_song.c:47:5:get_track_start	6
+../Core/Src/Project/play_song.c:60:6:parse_song	6
+../Core/Src/Project/play_song.c:96:6:play_song	3

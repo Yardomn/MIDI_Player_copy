@@ -1,0 +1,2 @@
+../Core/Src/Project/endian_converter.c:11:10:convert_to_uint16	1
+../Core/Src/Project/endian_converter.c:17:10:convert_to_uint32	1

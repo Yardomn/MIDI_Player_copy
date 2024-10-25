@@ -1,0 +1,60 @@
+/*
+ * S1_button_handler.c
+ *
+ *  Created on: Mar 19, 2024
+ *      Author: raymo
+ */
+
+#include "printf.h"
+#include "GPIO.h"
+#include "main.h"
+#include "project.h"
+#include "stm32l4xx.h"
+
+
+static int count = 0;
+static int button_pressed = 0;
+
+void S1_button_enable(){
+	//enables interrupts for the S1 switch
+	NVIC_EnableIRQ(EXTI9_5_IRQn);
+}
+
+void S1_button_disable(){
+	//disables interrupts for the S1 switch
+	NVIC_DisableIRQ(EXTI9_5_IRQn);
+}
+
+void EXTI9_5_IRQHandler(){
+	//Interrupt handler for S1 switch
+	button_pressed ++;
+	if((count<=1000) & (button_pressed>3)){ //button pressed 4 times because of bounce
+		//prints next song if it has been pressed twice in the last second
+		next_song();
+		button_pressed = 0;
+	}
+	HAL_GPIO_EXTI_IRQHandler(S1_Pin);
+}
+
+int Get_button_pressed(){
+	//getter for button_pressed
+	//output - int of whether the button was pressed in the last second
+	return button_pressed;
+}
+
+void increment_count(){
+	//method to allow systick to increment count for the button timer
+	if(count<100){
+		count++;
+	}else if(button_pressed == 1){
+		//If button is pressed once it has not been let go, so it is held
+		Set_LED_status(0);
+		button_pressed = 0;
+	}else{
+		//handler for one button press
+		count = 0;
+		button_pressed = 0;
+		Toggle_LED_status();
+	}
+}
+
